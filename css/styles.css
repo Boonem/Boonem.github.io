@@ -7004,6 +7004,13 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
+.center-right-column {
+  width: 50%;
+  left:auto;
+  right:0;
+  position: absolute;
+}
+
 .min-vh-100 {
   min-height: 100vh !important;
 }
@@ -7055,6 +7062,15 @@ textarea.form-control-lg {
 .flex-wrap-reverse {
   flex-wrap: wrap-reverse !important;
 }
+
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 990px) {
+    .visibledevice {display:block;}
+    .visibledesktop {display:none;}
+}
+
 
 .gap-0 {
   gap: 0 !important;
