@@ -1,0 +1,3 @@
+[submodule "MusicFlashcards"]
+	path = MusicFlashcards
+	url = https://github.com/Boonem/Music-Flashcards
